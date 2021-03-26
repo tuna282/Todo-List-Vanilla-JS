@@ -1,3 +1,119 @@
 * {
   box-sizing: border-box;
 }
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.toDos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  border-radius: 25px;
+  width: 350px;
+  border: 2px solid #ffa3a5;;
+  background-color: white;
+  margin-top: 50px;
+}
+
+.header h2 {
+  margin: 0px;
+  margin-left: 10px;
+  font-size: 40px;
+}
+
+.form {
+  border-radius: 25px;
+  background-color: #ffa3a5;
+  width: 700px;
+  border: 2px solid #ffa3a5;
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+.container {
+  padding: 25px;
+  padding-bottom: 10px;
+}
+
+.container input {
+  width: 650px;
+  height: 25px;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+#submit-button {
+  margin: 0px;
+  border-radius: 25px;
+  position: relative;
+  left: 575px;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-size: 15px;
+}
+
+.toDo {
+  border-radius: 25px;
+  background-color: #c3f1e2;
+  width: 700px;
+  border: 2px solid;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.toDo header {
+  padding-left: 25px;
+  font-size: 40px;
+  font-weight: bolder;
+  padding-top: 15px;
+}
+
+.toDo p {
+  padding-left: 25px;
+  font-size: 20px;
+}
+
+.toDoDone {
+  border-radius: 25px;
+  background-color: #f2f2f2;
+  width: 700px;
+  border: 2px solid;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.toDoDone header {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.toDoDone p {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.remove-button {
+  border: 2px solid #ffa3a5;
+  border-radius: 25px;
+  position: relative;
+  left: 575px;
+  margin-bottom: 10px;
+  background-color: #de0a39;
+  color: white;
+  padding: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-size: 15px;
+}
+
+
+
